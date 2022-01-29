@@ -45,7 +45,7 @@ export default {
           image: require("../../assets/images/scrubs/scrub3.jpg"),
         },
         {
-          name: "Retail",
+          name: "Retails",
           link: "/products",
           image: require("../../assets/images/scrubs/scrub4.jpg"),
         },
