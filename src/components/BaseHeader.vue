@@ -19,7 +19,8 @@
       </span>
       <div class="sub-head flex-reverse justify-between align-center">
         <div class="social-media">
-          <a href="" class="icon primary"
+          <!-- facebook icon -->
+          <a href="https://web.facebook.com/AlfieDesigns" class="icon primary"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 25.999 25.999"
@@ -28,7 +29,10 @@
                 d="M26,4.333A4.484,4.484,0,0,0,21.666,0H4.333A4.484,4.484,0,0,0,0,4.333V21.666A4.484,4.484,0,0,0,4.333,26H13V16.177H9.822V11.844H13V10.169c0-2.918,2.2-5.547,4.882-5.547h3.5V8.955h-3.5a1.065,1.065,0,0,0-.838,1.156v1.733h4.333v4.333H17.044V26h4.622A4.484,4.484,0,0,0,26,21.666Z"
               /></svg
           ></a>
-          <a href="" class="icon primary"
+          <!-- instagram icon -->
+          <a
+            href="https://www.instagram.com/alfie_designs/"
+            class="icon primary"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 25.999 25.999"
@@ -38,7 +42,10 @@
                 transform="translate(-3.419 -4.831)"
               /></svg
           ></a>
-          <a href="" class="icon primary"
+          <!-- linkedin icon -->
+          <a
+            href="https://www.linkedin.com/company/alfie-designs/"
+            class="icon primary"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 25.999 25.999"
@@ -49,7 +56,8 @@
                 transform="translate(-107.646 -105.992)"
               /></svg
           ></a>
-          <a href="" class="icon primary"
+          <!-- twitter icon -->
+          <a href="https://twitter.com/alfie_designs" class="icon primary"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 31.951 25.999"
@@ -113,7 +121,6 @@
     <!-- </header> -->
   </div>
 </template>
-
 
 <script>
 /* eslint-disable */

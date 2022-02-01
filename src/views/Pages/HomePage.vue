@@ -1,11 +1,10 @@
-
 <template>
   <main>
     <HomeCarousel />
     <HomeProducts />
     <HomeClientele />
     <HomeBlogPost />
-    <HomeFeed />
+    <!-- <HomeFeed /> -->
     <BaseContact />
   </main>
 </template>
@@ -14,7 +13,7 @@
 // @ is an alias to /src
 import HomeCarousel from "@/components/Home/HomeCarousel.vue";
 import HomeProducts from "@/components/Home/HomeProducts.vue";
-import HomeFeed from "@/components/Home/HomeFeed.vue";
+// import HomeFeed from "@/components/Home/HomeFeed.vue";
 import HomeClientele from "@/components/Home/HomeClientele.vue";
 import HomeBlogPost from "@/components/Home/HomeBlogPost.vue";
 import BaseContact from "@/components/BaseContact.vue";
@@ -24,7 +23,7 @@ export default {
   components: {
     HomeCarousel,
     HomeProducts,
-    HomeFeed,
+    // HomeFeed,
     HomeClientele,
     HomeBlogPost,
     BaseContact,

@@ -9,16 +9,16 @@
           class="cover"
         />
         <p class="text">
-          Alfie Designs is a renowned clothes manufacturing company based in Accra, Ghana distinguished by our high quality products and reliable,
-          Efficient Customer service and boasting 28 years of experience as an established institution.
-
-          We design, manufacture And export fashions tailored to individual styles of consumers across all classes .
-
-          We have a factory in kaneshie , Accra as well as three outlets in Ghana , one is Sierra Leone and
-          Another in Uganda 
-
-          We manufacture for and shock
-          A number of private brands including The Social Mercenary(UK), Mansa Wear(USA) Y3ka Yeke (Kenya) Woodin (Ghana ), Nabita fashions(Australia )
+          Alfie Designs is a renowned clothes manufacturing company based in
+          Accra, Ghana distinguished by our high quality products and reliable,
+          Efficient Customer service and boasting 28 years of experience as an
+          established institution. We design, manufacture And export fashions
+          tailored to individual styles of consumers across all classes . We
+          have a factory in kaneshie , Accra as well as three outlets in Ghana ,
+          one is Sierra Leone and Another in Uganda We manufacture for and shock
+          A number of private brands including The Social Mercenary(UK), Mansa
+          Wear(USA) Y3ka Yeke (Kenya) Woodin (Ghana ), Nabita fashions(Australia
+          )
         </p>
       </div>
     </section>
@@ -154,7 +154,7 @@
             class="image"
           />
           <p class="name">Afi</p>
-          <p class="position">C.E.O</p>
+          <p class="position">Founder</p>
           <div class="social-accounts flex">
             <a href="" class="icon white"
               ><svg
@@ -188,7 +188,7 @@
             ></a>
           </div>
         </div>
-        <div class="member-profile flex-column align-center justify-between">
+        <!-- <div class="member-profile flex-column align-center justify-between">
           <img
             src="@/assets/images/Image-6.png"
             alt="picture of"
@@ -228,8 +228,8 @@
                 /></svg
             ></a>
           </div>
-        </div>
-        <div class="member-profile flex-column align-center justify-between">
+        </div> -->
+        <!-- <div class="member-profile flex-column align-center justify-between">
           <img
             src="@/assets/images/Image-6.png"
             alt="picture of"
@@ -269,7 +269,7 @@
                 /></svg
             ></a>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
