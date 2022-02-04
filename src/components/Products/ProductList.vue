@@ -16,11 +16,95 @@
         </div>
       </section>
       <section class="category" id="men">
+        <h3 class="category-name align-center">MEN'S WEAR LIST</h3>
+        <div class="products-container">
+          <div
+            class="product"
+            v-for="(item, index) in mensWearList"
+            :key="index"
+          >
+            <img :src="item.image" alt="" class="image" />
+          </div>
+        </div>
+      </section>
+      <section class="category" id="men">
         <h3 class="category-name align-center">MEN'S WEAR</h3>
         <div class="products-container">
           <div class="product">
             <img
-              src="@/assets/images/products/men/alfie-m4.png"
+              src="@/assets/images/products/men/alfie-m14.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m13.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m12.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m11.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m10.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m9.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m8.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m7.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m6.png"
+              alt=""
+              class="image"
+            />
+            <!-- <p class="price"></p> -->
+          </div>
+          <div class="product">
+            <img
+              src="@/assets/images/products/men/alfie-m5.png"
               alt=""
               class="image"
             />
@@ -128,6 +212,52 @@ export default {
   data() {
     return {
       productList: [
+        {
+          name: "Mass Production",
+          image: require("../../assets/images/scrubs/scrub5.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub6.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub7.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub8.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub9.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub10.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub11.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub12.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub13.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub14.jpg"),
+        },
+        {
+          name: "Retail",
+          image: require("../../assets/images/scrubs/scrub18.jpg"),
+        },
+      ],
+      mensWearList: [
         {
           name: "Mass Production",
           image: require("../../assets/images/scrubs/scrub5.jpg"),
