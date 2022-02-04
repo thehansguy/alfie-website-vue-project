@@ -57,7 +57,7 @@
       <div
         class="passion container flex-wrap flex-reverse align-center justify-center"
       >
-        <img src="@/assets/images/ap.png" alt="" />
+        <img src="@/assets/images/alfie-about-we-love-what-we-do.jpg" alt="" />
         <p>
           From initial design concept on a tablet to the final stitch by the
           machine, each Alfie Design is special; and that special nature is
