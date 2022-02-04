@@ -2,7 +2,9 @@
   <div>
     <h1 class="heading">CONTACT</h1>
     <div class="top-section justify-center">
-      <section class="banner flex-column justify-center align-center">
+      <section
+        class="banner contact-img flex-column justify-center align-center"
+      >
         <h4 class="title">Got Something You'd Like to Ask</h4>
         <p class="subtitle">
           Let's hear it! We enjoy reading your questions, comments and feedback
