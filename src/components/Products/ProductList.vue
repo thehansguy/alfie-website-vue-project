@@ -16,8 +16,8 @@
         </div>
       </section>
       <section class="category" id="men">
-        <h3 class="category-name align-center">MEN'S WEAR LIST</h3>
-        <div class="products-container">
+        <h3 class="category-name align-center">MEN'S WEAR</h3>
+        <div class="products-container flex-wrap">
           <div
             class="product"
             v-for="(item, index) in mensWearList"
@@ -27,152 +27,19 @@
           </div>
         </div>
       </section>
-      <section class="category" id="men">
-        <h3 class="category-name align-center">MEN'S WEAR</h3>
-        <div class="products-container">
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m14.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m13.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m12.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m11.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m10.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m9.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m8.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m7.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m6.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m5.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m3.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m2.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/men/alfie-m1.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-        </div>
-      </section>
       <section class="category" id="women">
         <h3 class="category-name align-center">WOMEN'S WEAR</h3>
-        <div class="products-container">
-          <div class="product">
-            <img
-              src="@/assets/images/products/women/alfie-w1.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/women/alfie-w2.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/women/alfie-w3.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
-          </div>
-          <div class="product">
-            <img
-              src="@/assets/images/products/women/alfie-w4.png"
-              alt=""
-              class="image"
-            />
-            <!-- <p class="price"></p> -->
+        <div class="products-container flex-wrap">
+          <div
+            class="product"
+            v-for="(item, index) in womensWearList"
+            :key="index"
+          >
+            <img :src="item.image" alt="" class="image" />
           </div>
         </div>
       </section>
+
       <section class="category" id="accessories">
         <h3 class="category-name align-center">Accessories</h3>
         <div class="products-container">
@@ -259,48 +126,118 @@ export default {
       ],
       mensWearList: [
         {
-          name: "Mass Production",
-          image: require("../../assets/images/scrubs/scrub5.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m1.png"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub6.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m2.png"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub7.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m3.png"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub8.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m4.png"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub9.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m5.jpeg"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub10.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m6.jpeg"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub11.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m7.jpeg"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub12.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m8.jpeg"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub13.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m9.jpeg"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub14.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m10.jpeg"),
         },
         {
-          name: "Retail",
-          image: require("../../assets/images/scrubs/scrub18.jpg"),
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m11.jpeg"),
+        },
+        {
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m12.jpeg"),
+        },
+        {
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m13.jpeg"),
+        },
+        {
+          name: "men",
+          image: require("../../assets/images/products/men/alfie-m14.jpeg"),
+        },
+      ],
+      womensWearList: [
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w1.png"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w2.png"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w3.png"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w4.png"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w5.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w6.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w7.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w8.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w9.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w10.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w11.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w12.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w13.jpeg"),
+        },
+        {
+          name: "women",
+          image: require("../../assets/images/products/women/alfie-w14.jpeg"),
         },
       ],
     };
