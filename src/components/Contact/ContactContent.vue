@@ -20,7 +20,7 @@
       </div>
       <div class="sub-section">
         <p class="title">Give us a call</p>
-        <a href="tel:+233-24-420-8778">+233 24 420 8778</a>
+        <a href="tel:+233 50-126-6459">+233 50-126-6459</a>
       </div>
       <div class="sub-section">
         <p class="title">Send an email</p>
