@@ -56,7 +56,7 @@
       <a href="#/">
         <img src="@/assets/logo.png" alt="alfie designs logo" class="logo" />
       </a>
-      <a href="#tel:+233-24-420-8778" class="contact-number">
+      <a href="#tel:+233 50-126-6459" class="contact-number">
         <span class="icon primary">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
             <path
@@ -66,7 +66,7 @@
             />
           </svg>
         </span>
-        &nbsp; +233 24-420-8778
+        &nbsp; +233 50-126-6459
       </a>
     </div>
     <nav class="navigation collapsed py-3">

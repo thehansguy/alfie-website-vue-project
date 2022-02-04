@@ -10,7 +10,7 @@
         </p>
         <p class="help-number">
           Help Center number is
-          <a href="tel:+233-24-420-8778">+233 24-420-8778</a>
+          <a href="tel:+233 50-126-6459">+233 50-126-6459</a>
         </p>
       </div>
       <div class="column information flex-column">
